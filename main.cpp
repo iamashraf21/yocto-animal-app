@@ -7,12 +7,9 @@ using namespace std;
 
 int main()
 {
-    // Animal a1("Monkey");
-    // cout<<a1.getSpecies()<<endl;
-    Dog d1("Tuffy", 5);
+    Dog d1("German Shepherd", 4);
     cout<<d1.getDogName()<<endl;
     cout<<d1.getDogAge()<<endl;
-
 
     return 0;
 }
