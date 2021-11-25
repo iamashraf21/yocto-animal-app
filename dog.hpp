@@ -14,7 +14,7 @@ class Dog:Animal
         int age;
         
     public:
-        Dog(const string& = "NULL", const int& = 0);
+        Dog(const string& = "NULL", const int& = 1);
         string getDogName();
         int getDogAge();
 };
